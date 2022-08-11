@@ -1,0 +1,46 @@
+html body {
+    background-color: rgb(171, 171, 165);
+    margin: 0;
+    padding: 0;
+    background: url("./resources/keila-hotzel-lFmuWU0tv4M-unsplash.jpg");
+    background-size: no-repeat cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 5%; 
+    max-width: 1000px;
+}
+
+.row {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.row-left-right {
+    justify-content: space-between;
+}
+
+.row-right {
+    justify-content: flex-end;
+}
+
+.row-left {
+    justify-content: flex-start;
+}
+
+.card {
+    display: inline-block;
+    background-color: rgba(200,200,200,.5);
+    padding: 1em;
+    border-radius: 1em;
+    width: 46%;
+}
+
+img {
+    height: 17em;
+    border-radius: 50%;
+    margin-right: 1em;
+}
